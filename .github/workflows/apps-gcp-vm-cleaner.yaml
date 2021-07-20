@@ -1,0 +1,39 @@
+name: apps/gcp-vm-cleaner
+
+on:
+  push:
+    paths:
+      - apps/gcp-vm-cleaner/**
+  pull_request:
+    paths:
+      - apps/gcp-vm-cleaner/**
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v2
+        with:
+          go-version: '1.16'
+      - name: install hclogvet
+        run: go install github.com/hashicorp/go-hclog/hclogvet@latest
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v2
+        with:
+          version: v1.41
+          working-directory: apps/gcp-vm-cleaner
+      - name: hclogvet
+        run: hclogvet ./...
+        working-directory: apps/gcp-vm-cleaner
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v2
+        with:
+          go-version: '1.16'
+      - run: go build ./...
+        working-directory: apps/gcp-vm-cleaner
+      - run: go test ./...
+        working-directory: apps/gcp-vm-cleaner
