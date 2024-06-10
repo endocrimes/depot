@@ -4,7 +4,7 @@ go 1.22.2
 
 require (
 	github.com/IGLOU-EU/go-wildcard/v2 v2.0.2
-	github.com/minio/minio-go/v7 v7.0.70
+	github.com/minio/minio-go/v7 v7.0.71
 	github.com/rs/cors v1.11.0
 )
 
@@ -22,5 +22,4 @@ require (
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
-	tailscale.com v1.66.4 // indirect
 )
