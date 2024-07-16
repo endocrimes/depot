@@ -1,4 +1,4 @@
-# nix-direnv cache busting line: sha256-f7G7OB74VTGkFAjPRdNHgHyRzqAt8v5Mk4OI+oz9WD4=
+# nix-direnv cache busting line: sha256-+C7gqtx+Bf6gVbBn687AbKlj//S75D7IbXmG5Qiub74=
 
 {
   description = "trash tools";
