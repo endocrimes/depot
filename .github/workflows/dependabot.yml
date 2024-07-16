@@ -25,7 +25,7 @@ jobs:
           go-version: "1.22"
           check-latest: true
       - name: Bump Go mod
-        run: ./hack/bump-go-sri.sh
+        run: ./hack/bump-go-sri
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Bump Go mod SRI
