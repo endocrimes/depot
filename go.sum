@@ -38,5 +38,5 @@ golang.org/x/text v0.16.0 h1:a94ExnEXNtEwYLGJSIUxnWoxoRz/ZcCsV63ROupILh4=
 golang.org/x/text v0.16.0/go.mod h1:GhwF1Be+LQoKShO3cGOHzqOgRrGaYc9AvblQOmPVHnI=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
-tailscale.com v1.68.2 h1:nxy9HTAXPjuTbu/xzF05mS/v9ABMRGGJdPWEScTJxUo=
-tailscale.com v1.68.2/go.mod h1:uqtoDEA8tw5+S+HLGqQGfpQsqeVtBS/EVVv5mXIaAoQ=
+tailscale.com v1.70.0 h1:SW7mxDepkXBv2iKITeyFDEfHCJBfOeHM+U79lQ0d5zQ=
+tailscale.com v1.70.0/go.mod h1:a5yWox+uO5CI4tCB9ot0ZPMdQMiC+Pis9mudVaYETIo=
