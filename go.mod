@@ -6,7 +6,7 @@ require (
 	github.com/IGLOU-EU/go-wildcard/v2 v2.0.2
 	github.com/minio/minio-go/v7 v7.0.74
 	github.com/rs/cors v1.11.0
-	tailscale.com v1.68.2
+	tailscale.com v1.70.0
 )
 
 require (
